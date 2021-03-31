@@ -1,0 +1,1725 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Education; OS build 19042.867; Version 2009; 64bit' Language: 'en' Physical Memory: 16343 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\UnityEditors\2020.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Unity Stuff/Unity Projects/URP_Esimerkki
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50930
+Successfully changed project path to: E:/Unity Stuff/Unity Projects/URP_Esimerkki
+E:/Unity Stuff/Unity Projects/URP_Esimerkki
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 48.06 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.0f1 (c7b5465681fb)
+[Subsystems] Discovering subsystems at path D:/UnityEditors/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity Stuff/Unity Projects/URP_Esimerkki/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 960 (ID=0x1401)
+    Vendor:   
+    VRAM:     4053 MB
+    Driver:   27.21.14.6172
+Initialize mono
+Mono path[0] = 'D:/UnityEditors/2020.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'D:/UnityEditors/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/UnityEditors/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/UnityEditors/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001133 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 47.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.478 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001571 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 49.77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.044 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2978 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.8 MB.
+System memory in use after: 131.8 MB.
+
+Unloading 130 unused Assets to reduce memory usage. Loaded Objects now: 3388.
+Total: 3.669600 ms (FindLiveObjects: 0.336800 ms CreateObjectMapping: 0.355400 ms MarkObjects: 1.857800 ms  DeleteObjects: 1.118700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001626 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.831 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2856 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.8 MB.
+System memory in use after: 125.8 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 3389.
+Total: 3.260600 ms (FindLiveObjects: 0.248400 ms CreateObjectMapping: 0.126100 ms MarkObjects: 1.824100 ms  DeleteObjects: 1.061300 ms)
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.1 MB.
+System memory in use after: 70.1 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 3389.
+Total: 3.484700 ms (FindLiveObjects: 0.373300 ms CreateObjectMapping: 0.151400 ms MarkObjects: 1.842200 ms  DeleteObjects: 1.116700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:srp/default-shader: 0000e00a000e0de00000e000e0000000 -> 0000e00a000e0de00000e000e02d0000
+========================================================================
+Received Import Request.
+  path: Assets/Settings/2D_Renderer.asset
+  artifactKey: Guid(ccac99b9f085eeb489bed4b25e52f315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/2D_Renderer.asset using Guid(ccac99b9f085eeb489bed4b25e52f315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea6111e80747f2bd8e7dc977d28f819') in 0.052397 seconds
+  Import took 0.056878 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.2 MB.
+System memory in use after: 70.2 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 3391.
+Total: 3.551500 ms (FindLiveObjects: 0.255100 ms CreateObjectMapping: 0.131600 ms MarkObjects: 1.996300 ms  DeleteObjects: 1.167300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.066567 seconds.
+  path: Assets/Settings/UniversalRP-LowQuality.asset
+  artifactKey: Guid(a31e9f9f9c9d4b9429ed0d1234e22103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRP-LowQuality.asset using Guid(a31e9f9f9c9d4b9429ed0d1234e22103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7333fb24cc1505df2882d86a0d90ae0') in 0.007553 seconds
+  Import took 0.011578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Settings/UniversalRP-MediumQuality.asset
+  artifactKey: Guid(d847b876476d3d6468f5dfcd34266f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRP-MediumQuality.asset using Guid(d847b876476d3d6468f5dfcd34266f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2d7a36fbce2f7da75ce82f04348da4') in 0.002988 seconds
+  Import took 0.006937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Settings/UniversalRP-HighQuality.asset
+  artifactKey: Guid(19ba41d7c0026c3459d37c2fe90c55a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRP-HighQuality.asset using Guid(19ba41d7c0026c3459d37c2fe90c55a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4135f089556f6fea1c825ea30d2cf12') in 0.003591 seconds
+  Import took 0.008430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.262381 seconds.
+  path: Assets/Scenes/2D_Scene.unity
+  artifactKey: Guid(9f1b4a981995d874f84ee5f689b4ad60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/2D_Scene.unity using Guid(9f1b4a981995d874f84ee5f689b4ad60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f195e1c815106b3360910b35291949c') in 0.003517 seconds
+  Import took 0.007964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.207448 seconds.
+  path: Assets/Scenes/3D_scene.unity
+  artifactKey: Guid(bf60486df06f7ac4fbfc578aee0ee30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/3D_scene.unity using Guid(bf60486df06f7ac4fbfc578aee0ee30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2778b2cacebefb9e72b885b10ec95dfb') in 0.002569 seconds
+  Import took 0.006873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.942566 seconds.
+  path: Assets/Asset Store/Bandits - Pixel Art/LightBandit.prefab
+  artifactKey: Guid(2e2183501755a214591e802f3aff33d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Bandits - Pixel Art/LightBandit.prefab using Guid(2e2183501755a214591e802f3aff33d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8442d9ff4b6be4d08d884fe7fb92a71') in 0.164322 seconds
+  Import took 0.169164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.962237 seconds.
+  path: Assets/Prefabs/PlayerBandit.prefab
+  artifactKey: Guid(075b5606439cb2c4f933e8dcde252778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerBandit.prefab using Guid(075b5606439cb2c4f933e8dcde252778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0b672b0cd259fbafa53045db9af26cf') in 0.014979 seconds
+  Import took 0.019523 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001584 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.910 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2858 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.4 MB.
+System memory in use after: 130.5 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3440.
+Total: 4.746400 ms (FindLiveObjects: 0.283500 ms CreateObjectMapping: 0.155600 ms MarkObjects: 3.185700 ms  DeleteObjects: 1.120600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.857017 seconds.
+  path: Assets/Scripts/2D_Scripts/BanditController.cs
+  artifactKey: Guid(f6f2efd631390ce4db6d2415dd582f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/2D_Scripts/BanditController.cs using Guid(f6f2efd631390ce4db6d2415dd582f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f6c09825ebcbceccc065694e1f2848') in 0.008002 seconds
+  Import took 0.012110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043486 seconds.
+  path: Assets/Scripts/2D_Scripts/BanditController.cs
+  artifactKey: Guid(f6f2efd631390ce4db6d2415dd582f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/2D_Scripts/BanditController.cs using Guid(f6f2efd631390ce4db6d2415dd582f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f6c09825ebcbceccc065694e1f2848') in 0.002209 seconds
+  Import took 0.006257 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001589 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.865 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2856 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.5 MB.
+System memory in use after: 130.5 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3443.
+Total: 4.766800 ms (FindLiveObjects: 1.345700 ms CreateObjectMapping: 0.290400 ms MarkObjects: 1.994300 ms  DeleteObjects: 1.135100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001939 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.937 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2856 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.5 MB.
+System memory in use after: 130.5 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3446.
+Total: 3.522100 ms (FindLiveObjects: 0.277500 ms CreateObjectMapping: 0.124400 ms MarkObjects: 1.908900 ms  DeleteObjects: 1.209600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001569 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.866 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2856 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.5 MB.
+System memory in use after: 130.5 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3449.
+Total: 3.709600 ms (FindLiveObjects: 0.263800 ms CreateObjectMapping: 0.127800 ms MarkObjects: 2.122200 ms  DeleteObjects: 1.194700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002355 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.876 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2856 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.5 MB.
+System memory in use after: 130.5 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3452.
+Total: 3.647200 ms (FindLiveObjects: 0.257300 ms CreateObjectMapping: 0.156900 ms MarkObjects: 2.044800 ms  DeleteObjects: 1.187200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 226.380607 seconds.
+  path: Assets/Asset Store/Bandits - Pixel Art/New Physic Material.physicMaterial
+  artifactKey: Guid(b8e1d3d421d9aa14db5ea13caadd7fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Bandits - Pixel Art/New Physic Material.physicMaterial using Guid(b8e1d3d421d9aa14db5ea13caadd7fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674833c4d54a47907ec35097b8e43a5d') in 0.009270 seconds
+  Import took 0.013610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.052865 seconds.
+  path: Assets/Asset Store/Bandits - Pixel Art/New Physics Material 2D.physicsMaterial2D
+  artifactKey: Guid(0f94c47ca30f6df4e83397c1472156f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Bandits - Pixel Art/New Physics Material 2D.physicsMaterial2D using Guid(0f94c47ca30f6df4e83397c1472156f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '029a14c3d09885229613240b2ee43556') in 0.006269 seconds
+  Import took 0.010951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Asset Store/Bandits - Pixel Art/New Physics Material 2D.physicsMaterial2D
+  artifactKey: Guid(0f94c47ca30f6df4e83397c1472156f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Bandits - Pixel Art/New Physics Material 2D.physicsMaterial2D using Guid(0f94c47ca30f6df4e83397c1472156f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '029a14c3d09885229613240b2ee43556') in 0.003045 seconds
+  Import took 0.007689 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005594 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.142 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2856 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.6 MB.
+System memory in use after: 130.5 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3455.
+Total: 7.095900 ms (FindLiveObjects: 0.683900 ms CreateObjectMapping: 0.446600 ms MarkObjects: 4.273300 ms  DeleteObjects: 1.690500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.303435 seconds.
+  path: Assets/Prefabs/PlayerBandit.prefab
+  artifactKey: Guid(075b5606439cb2c4f933e8dcde252778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerBandit.prefab using Guid(075b5606439cb2c4f933e8dcde252778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2142436c00da02a30d7340a40b1d3c3') in 0.127395 seconds
+  Import took 0.132007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.435578 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Ground
+  artifactKey: Guid(016fde340c118ce4fa457651a14975e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Ground using Guid(016fde340c118ce4fa457651a14975e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c741803947c88b22c2058f6b6ebec4') in 0.002482 seconds
+  Import took 0.007203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.891438 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Ground/TX Tileset Ground SR (1).prefab
+  artifactKey: Guid(ec71229bf7246c242be5fa08d1b071e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Ground/TX Tileset Ground SR (1).prefab using Guid(ec71229bf7246c242be5fa08d1b071e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ba404a30ebbd67dcfcddb124a4dcfa') in 0.009516 seconds
+  Import took 0.013993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.298708 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Ground/TX Tileset Ground SM (65).prefab
+  artifactKey: Guid(48bfa5d24797db14aa1c09031cb14564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Ground/TX Tileset Ground SM (65).prefab using Guid(48bfa5d24797db14aa1c09031cb14564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98af2851c74c1b401822fe8e0851d278') in 0.011473 seconds
+  Import took 0.023902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.252146 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Ground/TX Tileset Ground SL.prefab
+  artifactKey: Guid(a43b7d5de637b924f8d0e921b13ad22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Ground/TX Tileset Ground SL.prefab using Guid(a43b7d5de637b924f8d0e921b13ad22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2818f7913c5e3eb38812dbd888ed7c3') in 0.009519 seconds
+  Import took 0.013777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.460527 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Pot A.prefab
+  artifactKey: Guid(f103d33f535fc0d44b05f4ff48b065ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Pot A.prefab using Guid(f103d33f535fc0d44b05f4ff48b065ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a021a295071ca21d4b5ed834e56a61') in 0.009641 seconds
+  Import took 0.013992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.455654 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Pot B.prefab
+  artifactKey: Guid(b84a52b24bb66cb4bb55b5a3c3b7a382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Pot B.prefab using Guid(b84a52b24bb66cb4bb55b5a3c3b7a382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc992436b637d20254c9f8c78d3a461c') in 0.010188 seconds
+  Import took 0.015160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.562843 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Pot C.prefab
+  artifactKey: Guid(71404f55ee1d95b488b06e27a30d1bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Pot C.prefab using Guid(71404f55ee1d95b488b06e27a30d1bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad6504eed2713dc069d10eb6816992c') in 0.009387 seconds
+  Import took 0.014076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.464908 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Chest.prefab
+  artifactKey: Guid(0cac945f7326a284da8502311c39b6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Chest.prefab using Guid(0cac945f7326a284da8502311c39b6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f47eada3115d45346aeb15d133a081') in 0.011103 seconds
+  Import took 0.018483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.715476 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Chest Opened.prefab
+  artifactKey: Guid(55076e5ea92a784408c38b7b6e21fad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Chest Opened.prefab using Guid(55076e5ea92a784408c38b7b6e21fad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e767647cb34df140fe748cabc868572') in 0.009705 seconds
+  Import took 0.014123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.680161 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Fence02.prefab
+  artifactKey: Guid(4ef905a54aca754448b07dac6ed0f155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Fence02.prefab using Guid(4ef905a54aca754448b07dac6ed0f155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '509c5d01a42bd1bb6a91f66a6e541e33') in 0.014220 seconds
+  Import took 0.019032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.523176 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Billboard.prefab
+  artifactKey: Guid(33dd80738a631c9418cd8a07d9751218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Billboard.prefab using Guid(33dd80738a631c9418cd8a07d9751218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d325e2eef63fa93436490cbc7d116f0') in 0.009497 seconds
+  Import took 0.013974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.236400 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Billboard Noti A.prefab
+  artifactKey: Guid(690bc2efd3598284b8a27154e938ee3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Billboard Noti A.prefab using Guid(690bc2efd3598284b8a27154e938ee3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a37bf22fb2a876716d59db916ce73fdf') in 0.009135 seconds
+  Import took 0.013801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.105672 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Billboard Noti B.prefab
+  artifactKey: Guid(ba350c2bb249947449cb33f3b7cb838d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Billboard Noti B.prefab using Guid(ba350c2bb249947449cb33f3b7cb838d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc0c8542781f0dedf1b790131aa1a814') in 0.009297 seconds
+  Import took 0.013795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.645149 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Billboard Noti D.prefab
+  artifactKey: Guid(3f35b90c0ee1ba74198831c3686ab612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Billboard Noti D.prefab using Guid(3f35b90c0ee1ba74198831c3686ab612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9a2c839fde9e81bbf212c74668fce1c') in 0.009814 seconds
+  Import took 0.014320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.605333 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Billboard Noti C.prefab
+  artifactKey: Guid(ff7c52013d748f34aaffe78e17dd2e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Billboard Noti C.prefab using Guid(ff7c52013d748f34aaffe78e17dd2e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612e2caee5f722a8ac69e7809db22550') in 0.009756 seconds
+  Import took 0.014335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.310612 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Wood Logs.prefab
+  artifactKey: Guid(b83f5461f67c0044092b6cab9055a438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Wood Logs.prefab using Guid(b83f5461f67c0044092b6cab9055a438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e32948e2784e4e31aa2afd79f6929b05') in 0.009574 seconds
+  Import took 0.014480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.797605 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Well.prefab
+  artifactKey: Guid(5dc226c49a8dd7c43906975adbed9e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Well.prefab using Guid(5dc226c49a8dd7c43906975adbed9e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc1c1127be676790d180977744d144c') in 0.009451 seconds
+  Import took 0.013948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.558818 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Bucket.prefab
+  artifactKey: Guid(5b9d8e9a7650cae479d43d4beab6d617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Bucket.prefab using Guid(5b9d8e9a7650cae479d43d4beab6d617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f8527fecb5d5392ea474e3f2d901132') in 0.009960 seconds
+  Import took 0.014965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.434640 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Clother Hanger.prefab
+  artifactKey: Guid(2ddd5a32c91ed1947a0796ff25a5b829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Clother Hanger.prefab using Guid(2ddd5a32c91ed1947a0796ff25a5b829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d8c659ef27f5e537610840158d2072d') in 0.009542 seconds
+  Import took 0.014491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.904968 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Clother Hanger Clip.prefab
+  artifactKey: Guid(38e0f1d28cd091043978d2bc80b3b8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Clother Hanger Clip.prefab using Guid(38e0f1d28cd091043978d2bc80b3b8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6040d4b4e4d0348805f5902c9e613c52') in 0.009661 seconds
+  Import took 0.014265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.030001 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Cloth C.prefab
+  artifactKey: Guid(6fa96e29df21bc34bbd728f15dbe520b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Cloth C.prefab using Guid(6fa96e29df21bc34bbd728f15dbe520b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f87b40c6ae53cdb4d462266219f0cf66') in 0.009747 seconds
+  Import took 0.014088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.757305 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Cloth D.prefab
+  artifactKey: Guid(f060809ba0a7dc34885f0ee0477025ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Cloth D.prefab using Guid(f060809ba0a7dc34885f0ee0477025ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609cb2d85b114eae503ea1bac9f11fda') in 0.008803 seconds
+  Import took 0.013529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.014111 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Cloth B.prefab
+  artifactKey: Guid(e4159570c336a82488adeeefb456014c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Cloth B.prefab using Guid(e4159570c336a82488adeeefb456014c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ccb5914a74dd2b7f4d19a114c6d8a31') in 0.009579 seconds
+  Import took 0.014137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.996045 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Cloth A.prefab
+  artifactKey: Guid(dc5b78b9ec82be34ea591d7ab73da30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Cloth A.prefab using Guid(dc5b78b9ec82be34ea591d7ab73da30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce7bc1c1d1d66cb60acde7b9c4e2abd1') in 0.009461 seconds
+  Import took 0.014127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.188308 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Cloth E.prefab
+  artifactKey: Guid(9817f51b2c954014dbd237967d7f03f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Cloth E.prefab using Guid(9817f51b2c954014dbd237967d7f03f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d9bbeb4c71c4cb7c4c6a4ad82c1040') in 0.009055 seconds
+  Import took 0.013618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.312658 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Cloth H.prefab
+  artifactKey: Guid(cf5711f47da5ef147b9493c7678ce2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Cloth H.prefab using Guid(cf5711f47da5ef147b9493c7678ce2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94453acf02a20f51caf4506c639c5361') in 0.009290 seconds
+  Import took 0.013895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.070740 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Clother Hanger Pillar A (1).prefab
+  artifactKey: Guid(089be3f53ea449a44889f81d3ef83558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Clother Hanger Pillar A (1).prefab using Guid(089be3f53ea449a44889f81d3ef83558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '375f28481ce4f538f2985246d9a0045a') in 0.010589 seconds
+  Import took 0.015164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.007807 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Clother Hanger Pillar B (1).prefab
+  artifactKey: Guid(3f90728767eba9e47acac7920b98db11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Clother Hanger Pillar B (1).prefab using Guid(3f90728767eba9e47acac7920b98db11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0797fc3164c0f0f5b693787fc1cd576b') in 0.011557 seconds
+  Import took 0.017093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.141082 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Clother Hanger Rope (1).prefab
+  artifactKey: Guid(10b47387da9617b4f8bbe3577ef8ec40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Clother Hanger Rope (1).prefab using Guid(10b47387da9617b4f8bbe3577ef8ec40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f6590e1399816ede9d615fbb3736ab') in 0.009836 seconds
+  Import took 0.030914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.166213 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Ladder M.prefab
+  artifactKey: Guid(f97785fdacde4624b8c30e183b1344a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Ladder M.prefab using Guid(f97785fdacde4624b8c30e183b1344a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0124a29c9d8263ac0ab38ed731caa36') in 0.009266 seconds
+  Import took 0.013925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.117939 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Ladder T.prefab
+  artifactKey: Guid(6f446ac831899bf4fa3839eda42dbe4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Ladder T.prefab using Guid(6f446ac831899bf4fa3839eda42dbe4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e640d609ea65142583032af4cfb21a') in 0.009420 seconds
+  Import took 0.013901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.441378 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props B.prefab
+  artifactKey: Guid(2b54ad78762cdb34f9b80ce91cd0017c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props B.prefab using Guid(2b54ad78762cdb34f9b80ce91cd0017c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac9fb41bbbb44d988aa0d6143a2683f') in 0.010211 seconds
+  Import took 0.015489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.272641 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Platform S.prefab
+  artifactKey: Guid(c733284e46b7cc94097a2133943fe0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Platform S.prefab using Guid(c733284e46b7cc94097a2133943fe0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebd2e16ed96966f1bcf4950b3f4fd323') in 0.009307 seconds
+  Import took 0.014329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.115079 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Platform W.prefab
+  artifactKey: Guid(5cb1d824b7cb1ca4eb632726a7d84d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Platform W.prefab using Guid(5cb1d824b7cb1ca4eb632726a7d84d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '809ecd2a247e127aedfc570ac91a7a51') in 0.009361 seconds
+  Import took 0.013957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.884873 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Hay Pile.prefab
+  artifactKey: Guid(7c11d2c535b97d34aa35af518f82825e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Hay Pile.prefab using Guid(7c11d2c535b97d34aa35af518f82825e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037dbd5da78f40ddd701142fd02aec65') in 0.009322 seconds
+  Import took 0.013897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.493707 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Hay Fork.prefab
+  artifactKey: Guid(60d19818678f5aa499b0a0ae6452858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Hay Fork.prefab using Guid(60d19818678f5aa499b0a0ae6452858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153172cd2a650d736333e0db9525e449') in 0.009874 seconds
+  Import took 0.014370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.702944 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Gunny Bag A.prefab
+  artifactKey: Guid(a1e88feb40954534799f56d0fd57b853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Gunny Bag A.prefab using Guid(a1e88feb40954534799f56d0fd57b853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd18f65bf10b3a615cf78171b4e9d90') in 0.009196 seconds
+  Import took 0.013752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.426409 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Gunny Bag B.prefab
+  artifactKey: Guid(ce35c86e4ab8ce1448bca069f2c737e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Gunny Bag B.prefab using Guid(ce35c86e4ab8ce1448bca069f2c737e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc2bf5ac5510aab028fd6bc4b66996f') in 0.009758 seconds
+  Import took 0.014446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 881.908402 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props
+  artifactKey: Guid(d3e6b9aa3be2ce54bbeb622b12ab2496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props using Guid(d3e6b9aa3be2ce54bbeb622b12ab2496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0185ef14995ea32cef5fb59197b0a31') in 0.003789 seconds
+  Import took 0.009211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.274269 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment
+  artifactKey: Guid(b988836a84298aa439bfd313b81a19ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment using Guid(b988836a84298aa439bfd313b81a19ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aa540236adf50c2c834bfdea572b2f3') in 0.003223 seconds
+  Import took 0.007483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.549443 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/Grasses
+  artifactKey: Guid(3436c57b252a4e74086af00b1c0323b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/Grasses using Guid(3436c57b252a4e74086af00b1c0323b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28fa60b285a9349da4bc7a607f111497') in 0.003340 seconds
+  Import took 0.007794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.966234 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/Grasses/TX Village Props Wheat A.prefab
+  artifactKey: Guid(9b2174bdac671e2419c0b3400f081977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/Grasses/TX Village Props Wheat A.prefab using Guid(9b2174bdac671e2419c0b3400f081977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e7322e0aa23c83e366ce57eda3e9a0') in 0.018780 seconds
+  Import took 0.023033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003021 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/Grasses/TX Village Props Wheat A.prefab
+  artifactKey: Guid(9b2174bdac671e2419c0b3400f081977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/Grasses/TX Village Props Wheat A.prefab using Guid(9b2174bdac671e2419c0b3400f081977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e7322e0aa23c83e366ce57eda3e9a0') in 0.013732 seconds
+  Import took 0.018193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.227395 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/Grasses/TX Village Props Wheat B.prefab
+  artifactKey: Guid(98d3d93fb753a3148a7c3e39843ce91f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/Grasses/TX Village Props Wheat B.prefab using Guid(98d3d93fb753a3148a7c3e39843ce91f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19bb674eb063431a0aa38dd7c20ca587') in 0.009537 seconds
+  Import took 0.014514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.431836 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/Grasses/TX Village Props Wheat C.prefab
+  artifactKey: Guid(c343667bc33aaa940a2d35aa4244dfda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/Grasses/TX Village Props Wheat C.prefab using Guid(c343667bc33aaa940a2d35aa4244dfda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93d0f4850702546d27219fbf98d790a') in 0.010696 seconds
+  Import took 0.016310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.106434 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/Grasses/TX Village Props Wheat D.prefab
+  artifactKey: Guid(5988764d1ad738c40802efda258f27b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/Grasses/TX Village Props Wheat D.prefab using Guid(5988764d1ad738c40802efda258f27b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7539f837706aebbca94447d116eedff0') in 0.010327 seconds
+  Import took 0.015078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.120634 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/Grasses/TX Village Props Wheat E.prefab
+  artifactKey: Guid(e4fcbef5922c96f459bde633adfde3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/Grasses/TX Village Props Wheat E.prefab using Guid(e4fcbef5922c96f459bde633adfde3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e5551ec65051a43a7c4f837bd73e980') in 0.015619 seconds
+  Import took 0.020074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.580553 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/Grasses/Wheat.prefab
+  artifactKey: Guid(2619f0487bd6bc44ead5fb9a7c79faf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/Grasses/Wheat.prefab using Guid(2619f0487bd6bc44ead5fb9a7c79faf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '325323afd60c52756b6eb628c18bbca1') in 0.010998 seconds
+  Import took 0.015849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.613792 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/Grasses/TX Village Props Grass A.prefab
+  artifactKey: Guid(94f4c0605c61c9341bd467797b1a3c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/Grasses/TX Village Props Grass A.prefab using Guid(94f4c0605c61c9341bd467797b1a3c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '651b45d7b99e91fe27a02316099aeda8') in 0.009956 seconds
+  Import took 0.014853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.991152 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/Grasses/TX Village Props Grass B.prefab
+  artifactKey: Guid(1b2f53b50c8862f4e9634d4ef13f0861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/Grasses/TX Village Props Grass B.prefab using Guid(1b2f53b50c8862f4e9634d4ef13f0861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '511911c478c2426c43c2fa613e2d5d15') in 0.009813 seconds
+  Import took 0.014303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.546504 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/Grasses/TX Village Props Grass C.prefab
+  artifactKey: Guid(0c267eee5907d5746917fdd7703a13ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/Grasses/TX Village Props Grass C.prefab using Guid(0c267eee5907d5746917fdd7703a13ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06e12b01567bdc0d2e885eb1d4a47c0c') in 0.013712 seconds
+  Import took 0.019112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.544957 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/Grasses/TX Village Props Flower A.prefab
+  artifactKey: Guid(a236297c8690eaa4a854bf8bb0c3db76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/Grasses/TX Village Props Flower A.prefab using Guid(a236297c8690eaa4a854bf8bb0c3db76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbffb3444ce20696b40855a4cf115788') in 0.008805 seconds
+  Import took 0.013291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.116214 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/Grasses/TX Village Props Grass E.prefab
+  artifactKey: Guid(3f67ad7f34c899d458f59afdc7ab073f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/Grasses/TX Village Props Grass E.prefab using Guid(3f67ad7f34c899d458f59afdc7ab073f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd34229a598d828b5a1adf1c199a82333') in 0.009205 seconds
+  Import took 0.013735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.428452 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/Grasses/TX Village Props Grass F.prefab
+  artifactKey: Guid(11fcdb2d312efef4a8e57828c88c3e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/Grasses/TX Village Props Grass F.prefab using Guid(11fcdb2d312efef4a8e57828c88c3e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11acbdd7790d91dcc9444f4f7f03b92e') in 0.008930 seconds
+  Import took 0.013518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.735851 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/Grasses/TX Village Props Grass D.prefab
+  artifactKey: Guid(d3891b207f5e1724cba30c69b8538a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/Grasses/TX Village Props Grass D.prefab using Guid(d3891b207f5e1724cba30c69b8538a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae02d59b4b124f7a5bbe44dd1acd6b5') in 0.011081 seconds
+  Import took 0.017590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.629784 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/TX Village Props Sunflower A.prefab
+  artifactKey: Guid(af9c0f62907154a419b57c4c4e1b0a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/TX Village Props Sunflower A.prefab using Guid(af9c0f62907154a419b57c4c4e1b0a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca4dbb922a9f7e9f39afc57609534f9') in 0.009966 seconds
+  Import took 0.014285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.155582 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/TX Village Props Sunflower B.prefab
+  artifactKey: Guid(3a2f9f3a1716fd547a2d3f25f8725417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/TX Village Props Sunflower B.prefab using Guid(3a2f9f3a1716fd547a2d3f25f8725417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76efeda6d7dcee9163263708e6913ae') in 0.011005 seconds
+  Import took 0.018162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.035932 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/TX Village Props Sunflower C.prefab
+  artifactKey: Guid(669d419079383b34ea5d5b857677a1fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/TX Village Props Sunflower C.prefab using Guid(669d419079383b34ea5d5b857677a1fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1db0895f3c1931eb83de6569fd97ad9') in 0.008697 seconds
+  Import took 0.013213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.728580 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/TX Village Props Pumpkin A.prefab
+  artifactKey: Guid(6b98c741216075e4a94c3fb921ba628e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/TX Village Props Pumpkin A.prefab using Guid(6b98c741216075e4a94c3fb921ba628e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c796ba315c04b478169a67be0f202c') in 0.009062 seconds
+  Import took 0.013885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.176616 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/TX Village Props Pumpkin B.prefab
+  artifactKey: Guid(66610ced9a5fc7740b6d3026926e66ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/TX Village Props Pumpkin B.prefab using Guid(66610ced9a5fc7740b6d3026926e66ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3692a1ede47868b38cfe9cc8db551c87') in 0.009334 seconds
+  Import took 0.013972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.118840 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Anvil.prefab
+  artifactKey: Guid(1a9871ecae1b7c84abcba589082bbba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Anvil.prefab using Guid(1a9871ecae1b7c84abcba589082bbba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c78a43ee2306de820ce4d0c0e0f28a5') in 0.010647 seconds
+  Import took 0.015308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.302876 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Scarecrow.prefab
+  artifactKey: Guid(9026b74410074f7479634b1d51e9f4fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Scarecrow.prefab using Guid(9026b74410074f7479634b1d51e9f4fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd9f7b978d2b2f01ff64964cd07c367e') in 0.009289 seconds
+  Import took 0.013815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.378467 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Hammer.prefab
+  artifactKey: Guid(2b0ab03e6b988804cbad09c68408f55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Hammer.prefab using Guid(2b0ab03e6b988804cbad09c68408f55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dae2e646ab96f3a84b711d8b976b5a0') in 0.010844 seconds
+  Import took 0.017066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.399776 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/Fence_Small.prefab
+  artifactKey: Guid(2833244da7b27304bad368b3cb8cf6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/Fence_Small.prefab using Guid(2833244da7b27304bad368b3cb8cf6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3b7501c8c4476bd0863909fd2a0dc0') in 0.034216 seconds
+  Import took 0.039278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.010662 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/Fence_Long.prefab
+  artifactKey: Guid(63de53ec14ddf0240a683c722f3ef19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/Fence_Long.prefab using Guid(63de53ec14ddf0240a683c722f3ef19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2cb898db98ca640a38b6742865961fa') in 0.011421 seconds
+  Import took 0.017040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.695221 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Gravestone A.prefab
+  artifactKey: Guid(d7e6d2fc5b302064aa8edc4a660e745a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Gravestone A.prefab using Guid(d7e6d2fc5b302064aa8edc4a660e745a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a48a23edb9f2cda6f94965fdc14d961e') in 0.009692 seconds
+  Import took 0.014618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.913026 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Gravestone B.prefab
+  artifactKey: Guid(0fda7bfec8f67d449b77a33a150c6c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Gravestone B.prefab using Guid(0fda7bfec8f67d449b77a33a150c6c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40b4569410dc394da416ce1a3db8458') in 0.009634 seconds
+  Import took 0.014408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.424167 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Gravestone C.prefab
+  artifactKey: Guid(9af876fa12a35694d872e0483d3578c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Gravestone C.prefab using Guid(9af876fa12a35694d872e0483d3578c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2431a15ac002c10c67fde7321390e91f') in 0.009695 seconds
+  Import took 0.014615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.140923 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Gravestone D.prefab
+  artifactKey: Guid(9e79bed70c8f9044cbbaba08d8dbb778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Gravestone D.prefab using Guid(9e79bed70c8f9044cbbaba08d8dbb778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2e91cb97eb40299d1711346081d76a') in 0.010737 seconds
+  Import took 0.015245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.893136 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Statue.prefab
+  artifactKey: Guid(4a8b6fc8289b3f24db583d11a10517da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Statue.prefab using Guid(4a8b6fc8289b3f24db583d11a10517da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5130598456bea12b45969d2ed643c25') in 0.009323 seconds
+  Import took 0.013828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.323151 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/TX Village Props Brick Wall.prefab
+  artifactKey: Guid(b709125c4d0fd2a4481b571be3e91627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/TX Village Props Brick Wall.prefab using Guid(b709125c4d0fd2a4481b571be3e91627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '696d804f0be78ceb8a3725bdfda37169') in 0.009305 seconds
+  Import took 0.013992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.185618 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/TX Village Props Bush A (1).prefab
+  artifactKey: Guid(4dea2d543ee0d0e4eb35247c159eaf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/TX Village Props Bush A (1).prefab using Guid(4dea2d543ee0d0e4eb35247c159eaf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e9beaaf022ccc4e00b81eb612ef381') in 0.009415 seconds
+  Import took 0.014124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.290038 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/TX Village Props Bush B.prefab
+  artifactKey: Guid(cfd625222065cf3449d3cb9002129226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/TX Village Props Bush B.prefab using Guid(cfd625222065cf3449d3cb9002129226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '300cf555630f127d79eba0a78e9575b8') in 0.009603 seconds
+  Import took 0.014186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.329255 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/TX Village Props Bush C.prefab
+  artifactKey: Guid(3f0ca76786d1975449521528987ffc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/TX Village Props Bush C.prefab using Guid(3f0ca76786d1975449521528987ffc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68347710f168c3a81bcbd52179d2c765') in 0.009038 seconds
+  Import took 0.014142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.855467 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Cauldron.prefab
+  artifactKey: Guid(21816cbebeed49049ad74f525d74f678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Cauldron.prefab using Guid(21816cbebeed49049ad74f525d74f678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '254b3adb28d289ce33dc44071d7668a3') in 0.009572 seconds
+  Import took 0.014420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.363521 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Hanging Bag.prefab
+  artifactKey: Guid(3e7271ebc08ad2c4e92ddd0ad5130ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Hanging Bag.prefab using Guid(3e7271ebc08ad2c4e92ddd0ad5130ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded2d32802df87ef97473736d17cd422') in 0.009090 seconds
+  Import took 0.013551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.065902 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Grain Box.prefab
+  artifactKey: Guid(97d09caac0ff376409c5a18107e6a9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Grain Box.prefab using Guid(97d09caac0ff376409c5a18107e6a9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '775d5b8d8de277756f49354ea08913d9') in 0.009437 seconds
+  Import took 0.014032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.993152 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Stall Fruit A.prefab
+  artifactKey: Guid(24a690a3e0d95a0408527e7356d4d048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Stall Fruit A.prefab using Guid(24a690a3e0d95a0408527e7356d4d048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc2da74ba827e0e378e289c8898615a4') in 0.009598 seconds
+  Import took 0.014095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.185282 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Stall Fruit B.prefab
+  artifactKey: Guid(8b3fb64f218cb9b41804de2ec24acaf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Stall Fruit B.prefab using Guid(8b3fb64f218cb9b41804de2ec24acaf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b530024b5c579c49bd48cfd5d5ba772') in 0.009044 seconds
+  Import took 0.013458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.152482 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Stall Fruit C.prefab
+  artifactKey: Guid(dada32887f887074790228f309f4a8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Stall Fruit C.prefab using Guid(dada32887f887074790228f309f4a8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfea32af902cda525117597162e6eeac') in 0.009623 seconds
+  Import took 0.014464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.992166 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Stall Fruit D.prefab
+  artifactKey: Guid(8ca3fb0fc08c43c4093c7188dfa38928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/TX Village Props Stall Fruit D.prefab using Guid(8ca3fb0fc08c43c4093c7188dfa38928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790108c6bf647002f4db92027459ddac') in 0.009411 seconds
+  Import took 0.014302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.925129 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/MarketStall
+  artifactKey: Guid(70f95b8572628db428a886ddf1835a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/MarketStall using Guid(70f95b8572628db428a886ddf1835a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac90147f6caf37e6cb747152fbb5bcc') in 0.003388 seconds
+  Import took 0.008048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002923 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/MarketStall
+  artifactKey: Guid(70f95b8572628db428a886ddf1835a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/MarketStall using Guid(70f95b8572628db428a886ddf1835a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac90147f6caf37e6cb747152fbb5bcc') in 0.002407 seconds
+  Import took 0.007005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.042206 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Stall Table.prefab
+  artifactKey: Guid(3aedc90e363662c4392164eaf2361c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Stall Table.prefab using Guid(3aedc90e363662c4392164eaf2361c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f879298a533d924b7285d66ee342d32b') in 0.009412 seconds
+  Import took 0.013813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.714918 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Stall Tent.prefab
+  artifactKey: Guid(7c1f0a49de0511f49b48e84fcc76dcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Stall Tent.prefab using Guid(7c1f0a49de0511f49b48e84fcc76dcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d47a5b6807ae7ac7f3615fdb0228500') in 0.009054 seconds
+  Import took 0.014001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.633754 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Stall Tent Pillar.prefab
+  artifactKey: Guid(5ae301bee0d144741b6bc396baa7bbdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Stall Tent Pillar.prefab using Guid(5ae301bee0d144741b6bc396baa7bbdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4568c5737602b29091ddb5e6e9c2457') in 0.009110 seconds
+  Import took 0.013764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.210912 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Wine Bottle.prefab
+  artifactKey: Guid(cf8537c1067f6e24f8d5b37be4fb6b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Wine Bottle.prefab using Guid(cf8537c1067f6e24f8d5b37be4fb6b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab0b99e442671d4d5b4ff913db8f0735') in 0.009786 seconds
+  Import took 0.014576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.527110 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props White Bottle.prefab
+  artifactKey: Guid(5b1bb4f6c767a004286ce79e85628372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props White Bottle.prefab using Guid(5b1bb4f6c767a004286ce79e85628372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d801773a96e589dc0fdf8dc3fd5e747') in 0.010088 seconds
+  Import took 0.014810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.562593 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Kettle.prefab
+  artifactKey: Guid(ed4366ce7b9cc8a4993f3cea381d993b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Kettle.prefab using Guid(ed4366ce7b9cc8a4993f3cea381d993b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4073c745ed2e81f5978268c11c77925') in 0.010577 seconds
+  Import took 0.015520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.413788 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Basket.prefab
+  artifactKey: Guid(1fa0835672deb3749a23e70870d8e58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Basket.prefab using Guid(1fa0835672deb3749a23e70870d8e58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '617cc838bec22857b03f14739799df5f') in 0.009509 seconds
+  Import took 0.015048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.597787 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/Market_Stall.prefab
+  artifactKey: Guid(c56824bb9ef0f5f4dbfb63230a2e04be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/Market_Stall.prefab using Guid(c56824bb9ef0f5f4dbfb63230a2e04be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b086cc21490a7197099ee864bc5f3a') in 0.013705 seconds
+  Import took 0.018688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.424456 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Wheelbarrow.prefab
+  artifactKey: Guid(79d15b859d7f8664b8e1c86a0999380c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Wheelbarrow.prefab using Guid(79d15b859d7f8664b8e1c86a0999380c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ad55b9510545828fae582f9d5a6288') in 0.009104 seconds
+  Import took 0.013475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.701436 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Wheelbarrow Wheel.prefab
+  artifactKey: Guid(0244af0165203034ebfe4245c69bd46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Wheelbarrow Wheel.prefab using Guid(0244af0165203034ebfe4245c69bd46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b6df00c9b24df19280ae087bc74af0f') in 0.009929 seconds
+  Import took 0.014403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.157682 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Log Bench.prefab
+  artifactKey: Guid(30680ddcde6970e4e907e03745beb835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Log Bench.prefab using Guid(30680ddcde6970e4e907e03745beb835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f9ecb5341250ad104eee989ba0af2a') in 0.010669 seconds
+  Import took 0.015434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.449371 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Chair.prefab
+  artifactKey: Guid(9baadc0dad117df418201a3d81fe8cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Chair.prefab using Guid(9baadc0dad117df418201a3d81fe8cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f54016eae564f9c703e76094d531ac') in 0.009521 seconds
+  Import took 0.014170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.542667 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Table.prefab
+  artifactKey: Guid(f91017fc5c075694d9b4084ae276e44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Table.prefab using Guid(f91017fc5c075694d9b4084ae276e44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68a3ffe69305e3fb8ce2ce8acf4366b1') in 0.009506 seconds
+  Import took 0.013861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.934465 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Cup.prefab
+  artifactKey: Guid(92fe71a5a1db7b546936654c70764524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Cup.prefab using Guid(92fe71a5a1db7b546936654c70764524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a899d55dbd76eb818958b60bd231de0b') in 0.009189 seconds
+  Import took 0.013885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.271591 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Bread.prefab
+  artifactKey: Guid(aa0863f78f75dbc4190a2ea78edaec93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Bread.prefab using Guid(aa0863f78f75dbc4190a2ea78edaec93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddab77f94c8e55cdc1edad67fad28215') in 0.009765 seconds
+  Import took 0.014534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.692989 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Apple.prefab
+  artifactKey: Guid(6372d64f866523d4dbf24b396294c107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Apple.prefab using Guid(6372d64f866523d4dbf24b396294c107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ead120600093e6b23c530ddd69f37927') in 0.009144 seconds
+  Import took 0.014036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.436167 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Training Dummy.prefab
+  artifactKey: Guid(781bb90deba78194cac06282377ea33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Training Dummy.prefab using Guid(781bb90deba78194cac06282377ea33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abe26b20c4dcb6bf263422e308063286') in 0.009314 seconds
+  Import took 0.013994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.666211 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Banner.prefab
+  artifactKey: Guid(8b7566c8f8995f04b9ec158179cb1996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Banner.prefab using Guid(8b7566c8f8995f04b9ec158179cb1996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a661fb950836a131734347b4a12960') in 0.010334 seconds
+  Import took 0.014928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.017626 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Banner Pillar.prefab
+  artifactKey: Guid(05d033abb422d054e84d0157ee131c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Banner Pillar.prefab using Guid(05d033abb422d054e84d0157ee131c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f461c36348ce44c91a913eedc6dfa32') in 0.009568 seconds
+  Import took 0.014367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.772998 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Barricade.prefab
+  artifactKey: Guid(ca0f41abe5f80dc4686d53931518049a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Barricade.prefab using Guid(ca0f41abe5f80dc4686d53931518049a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c845674a29e4acb581cad1b04f3baefa') in 0.009409 seconds
+  Import took 0.014318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.225326 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Spike.prefab
+  artifactKey: Guid(eaa61412a8646a347ae66c9e323ccfa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Spike.prefab using Guid(eaa61412a8646a347ae66c9e323ccfa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c04a97674886cdcb81c85b4e1e7d87') in 0.009168 seconds
+  Import took 0.013720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.259237 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Spike Ball.prefab
+  artifactKey: Guid(6e80b2b0ab0ef254293c5e0295eea9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Spike Ball.prefab using Guid(6e80b2b0ab0ef254293c5e0295eea9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ce813ba047b672be8102261620d6f9a') in 0.009109 seconds
+  Import took 0.013651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.768022 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Fire Bowl.prefab
+  artifactKey: Guid(1acda600d5507d0489cf96bdb25774ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Fire Bowl.prefab using Guid(1acda600d5507d0489cf96bdb25774ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd266e8b5881bf3860656f0e8af5878a') in 0.016839 seconds
+  Import took 0.023148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.166224 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Ladder B.prefab
+  artifactKey: Guid(5e420f28fc54df64a82b30af0a10f693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Ladder B.prefab using Guid(5e420f28fc54df64a82b30af0a10f693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ca47ce261af91e6ebfdce329105c5aa') in 0.010463 seconds
+  Import took 0.015254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.045116 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Weapon Rack.prefab
+  artifactKey: Guid(c4579546a5f096042a390366ab535238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Weapon Rack.prefab using Guid(c4579546a5f096042a390366ab535238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c937ccaa07fec67bfad9032e8369e24') in 0.010522 seconds
+  Import took 0.015506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.518120 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Spear.prefab
+  artifactKey: Guid(deedb8fbf17ad3342978e2e4742cceb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Spear.prefab using Guid(deedb8fbf17ad3342978e2e4742cceb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '880b0fa83419fb0aa7af5865ca6387bd') in 0.010166 seconds
+  Import took 0.014853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.675127 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Hay Fork 1.prefab
+  artifactKey: Guid(33c401ca39deb8945bb9e4d75d7b8b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Hay Fork 1.prefab using Guid(33c401ca39deb8945bb9e4d75d7b8b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b5be4045d34bb61d4698fc006eeeb9') in 0.009718 seconds
+  Import took 0.014273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.366658 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Heavy Sword.prefab
+  artifactKey: Guid(f449cfebce0cadd4aa3c7d3d7375603b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Heavy Sword.prefab using Guid(f449cfebce0cadd4aa3c7d3d7375603b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e2d62469d96d70c95a3cbeda0ce402') in 0.010379 seconds
+  Import took 0.015193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.075120 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Sword.prefab
+  artifactKey: Guid(a7e9927ea26a33a4f9d2e2df944f5147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Sword.prefab using Guid(a7e9927ea26a33a4f9d2e2df944f5147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '133e7640992a539b3f6a5de688748420') in 0.011033 seconds
+  Import took 0.016361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.311482 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Archert Target.prefab
+  artifactKey: Guid(16d4ad1209d3a4f49ab150476865ef89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Archert Target.prefab using Guid(16d4ad1209d3a4f49ab150476865ef89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aea4d1ae24078fac4285a017521f692') in 0.009318 seconds
+  Import took 0.013897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.445572 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Arrow Hit.prefab
+  artifactKey: Guid(d66d9683d00f0d442b68e80d1b44cb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Arrow Hit.prefab using Guid(d66d9683d00f0d442b68e80d1b44cb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada5698a10322a2bf02e9d3ad80a5ea9') in 0.008798 seconds
+  Import took 0.013386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.359210 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Campfire.prefab
+  artifactKey: Guid(08a7ea6412d45e145aec42b4dade5f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Props/TX Village Props Campfire.prefab using Guid(08a7ea6412d45e145aec42b4dade5f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a395750acf1073c5b9dea1e34196bee') in 0.012926 seconds
+  Import took 0.017807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.068587 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/TX Village Props Rock A.prefab
+  artifactKey: Guid(1560d1c009671664a87f8f884890698d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/TX Village Props Rock A.prefab using Guid(1560d1c009671664a87f8f884890698d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec74d53eb182223a0b7168b1faad4dea') in 0.009638 seconds
+  Import took 0.014214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.463896 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/TX Village Props Rock C.prefab
+  artifactKey: Guid(1ae6c46af6c6f9243809c54287a375fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/TX Village Props Rock C.prefab using Guid(1ae6c46af6c6f9243809c54287a375fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a804ec48df7685fb45c694830ae02d8c') in 0.009472 seconds
+  Import took 0.014345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.090976 seconds.
+  path: Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/TX Village Props Rock B.prefab
+  artifactKey: Guid(d5c200fab1789224a8847e5ad9ffb5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Pixel Art Platformer - Village Props/Prefab/Environment/TX Village Props Rock B.prefab using Guid(d5c200fab1789224a8847e5ad9ffb5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe25ce76f00e39931fc84e4c7a6d3fc0') in 0.009766 seconds
+  Import took 0.014396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.133485 seconds.
+  path: Assets/Scenes/2D_Scene.unity
+  artifactKey: Guid(9f1b4a981995d874f84ee5f689b4ad60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/2D_Scene.unity using Guid(9f1b4a981995d874f84ee5f689b4ad60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63f8eb6e69f51e3670270002f0b3dff3') in 0.002839 seconds
+  Import took 0.007459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.276019 seconds.
+  path: Assets/Asset Store/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_AnimController.controller
+  artifactKey: Guid(b95265f99b6d90e438df1308a89c8bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_AnimController.controller using Guid(b95265f99b6d90e438df1308a89c8bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41002baa45c5c09e59d2b096266a6211') in 0.010093 seconds
+  Import took 0.014729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 130.773164 seconds.
+  path: Assets/Asset Store/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_AnimController.controller
+  artifactKey: Guid(b95265f99b6d90e438df1308a89c8bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_AnimController.controller using Guid(b95265f99b6d90e438df1308a89c8bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9762e082ce2e2f729ca70b315968629') in 0.006166 seconds
+  Import took 0.010748 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001662 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.879 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2856 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.0 MB.
+System memory in use after: 131.0 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3494.
+Total: 3.923200 ms (FindLiveObjects: 0.270000 ms CreateObjectMapping: 0.126300 ms MarkObjects: 2.212600 ms  DeleteObjects: 1.312900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 315.729980 seconds.
+  path: Assets/Scripts/BanditController.cs
+  artifactKey: Guid(f6f2efd631390ce4db6d2415dd582f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BanditController.cs using Guid(f6f2efd631390ce4db6d2415dd582f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1cb2a6b3a61f8d32a15be3f1b516183') in 0.005073 seconds
+  Import took 0.009256 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001595 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.950 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2856 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.0 MB.
+System memory in use after: 131.0 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3497.
+Total: 4.099400 ms (FindLiveObjects: 0.294000 ms CreateObjectMapping: 0.151300 ms MarkObjects: 2.440900 ms  DeleteObjects: 1.212100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001742 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.905 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2856 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.0 MB.
+System memory in use after: 131.0 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3500.
+Total: 3.857400 ms (FindLiveObjects: 0.274000 ms CreateObjectMapping: 0.155400 ms MarkObjects: 2.200100 ms  DeleteObjects: 1.226700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001612 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.886 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2856 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.0 MB.
+System memory in use after: 131.0 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3503.
+Total: 4.178800 ms (FindLiveObjects: 0.348700 ms CreateObjectMapping: 0.186100 ms MarkObjects: 2.367700 ms  DeleteObjects: 1.274500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001803 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.866 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2856 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.0 MB.
+System memory in use after: 131.0 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3506.
+Total: 4.016100 ms (FindLiveObjects: 0.322500 ms CreateObjectMapping: 0.172400 ms MarkObjects: 2.253900 ms  DeleteObjects: 1.266200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 525.563595 seconds.
+  path: Assets/Asset Store/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_AnimController.controller
+  artifactKey: Guid(b95265f99b6d90e438df1308a89c8bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_AnimController.controller using Guid(b95265f99b6d90e438df1308a89c8bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb648d028c11dbbc49aca6a48e69c08') in 0.010891 seconds
+  Import took 0.015337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Asset Store/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_AnimController.controller
+  artifactKey: Guid(b95265f99b6d90e438df1308a89c8bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Bandits - Pixel Art/Animations/Light Bandit/LightBandit_AnimController.controller using Guid(b95265f99b6d90e438df1308a89c8bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb648d028c11dbbc49aca6a48e69c08') in 0.006470 seconds
+  Import took 0.010848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.617850 seconds.
+  path: Assets/Scripts/BanditController.cs
+  artifactKey: Guid(f6f2efd631390ce4db6d2415dd582f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BanditController.cs using Guid(f6f2efd631390ce4db6d2415dd582f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ae1daa9af4e6cf7655e58948a8be65') in 0.002226 seconds
+  Import took 0.007497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021880 seconds.
+  path: Assets/Scripts/BanditController.cs
+  artifactKey: Guid(f6f2efd631390ce4db6d2415dd582f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BanditController.cs using Guid(f6f2efd631390ce4db6d2415dd582f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ae1daa9af4e6cf7655e58948a8be65') in 0.003539 seconds
+  Import took 0.008221 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001615 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.913 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2856 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.0 MB.
+System memory in use after: 131.0 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3509.
+Total: 5.062400 ms (FindLiveObjects: 0.316400 ms CreateObjectMapping: 0.176900 ms MarkObjects: 2.746100 ms  DeleteObjects: 1.821300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 81.683350 seconds.
+  path: Assets/Scripts/BanditController.cs
+  artifactKey: Guid(f6f2efd631390ce4db6d2415dd582f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BanditController.cs using Guid(f6f2efd631390ce4db6d2415dd582f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a546ba8a750abdd8ed98c8de5859658a') in 0.005636 seconds
+  Import took 0.009839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.485135 seconds.
+  path: Assets/Scripts/BanditController.cs
+  artifactKey: Guid(f6f2efd631390ce4db6d2415dd582f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BanditController.cs using Guid(f6f2efd631390ce4db6d2415dd582f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a546ba8a750abdd8ed98c8de5859658a') in 0.002465 seconds
+  Import took 0.006607 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001609 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.871 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2856 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.0 MB.
+System memory in use after: 131.0 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3512.
+Total: 4.260300 ms (FindLiveObjects: 0.292000 ms CreateObjectMapping: 0.155300 ms MarkObjects: 2.600700 ms  DeleteObjects: 1.211100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.022829 seconds.
+  path: Assets/Prefabs/Village_Props_Pack
+  artifactKey: Guid(8d3b16bf124f65b49b22817d94a88022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Village_Props_Pack using Guid(8d3b16bf124f65b49b22817d94a88022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ffdee39999cb0c01eecbb472edfcea3') in 0.006704 seconds
+  Import took 0.011811 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
