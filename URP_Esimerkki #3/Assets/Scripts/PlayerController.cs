@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     // Public => Näkyy inspectorissa
     public float speed = 10f;
 
+    public float speedw = 500f;
     // Hypyn voimakkuus
     public float jumpForce = 50f;
 
@@ -35,7 +36,16 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space)) // Kun painetaan kerran Spacebar -näppäintä, toteutetaan Jump -metodi
         {
-            Jump();
+            Jump();  
+            float horizontal = Input.GetAxis("Horizontal");
+        float vertical = Input.GetAxis("Vertical");
+             
+      
+        
+            Vector3 MoveDir2 = new Vector3(horizontal * 50 , 0, vertical * 50);
+            rb.AddForce(MoveDir2 * speedw);
+            Debug.Log(Input.GetKeyDown(KeyCode.Space));
+        
         }
     }
 
@@ -44,11 +54,13 @@ public class PlayerController : MonoBehaviour
     /// </summary>
     private void FixedUpdate()
     {
+        
+        Move(); 
         // Toteutetaan Move -metodi jatkuvasti
-        Move();
+
     }
 
-    /// <summary>
+    /// <summary>             
     /// Move metodi, joka hallinnoi pelaajan liikkumisen logiikkaa
     /// </summary>
     void Move()
@@ -63,7 +75,7 @@ public class PlayerController : MonoBehaviour
         // HUOM: horizontal on yhdistetty "A / D" näppäimiin ja Vertical on yhdistetty "W / S".
         // Tässä tilanteessa Vector3 muuttujan "y" arvo on asetettu 0, sillä se vaikuttaa objektin "ylös alas" liikkeeseen
         Vector3 MoveDir = new Vector3(horizontal, 0, vertical);
-
+      
         //// Tapa kaksi toteuttaa pelaajan liikkuminen
         //// Asetetaan suoraan Vector3 Horizontal ja Vertical arvot, ilman että niitä asetetaan ensin erillisiin muuttujiin
         //Vector3 MoveDir = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
@@ -71,17 +83,24 @@ public class PlayerController : MonoBehaviour
         // Käytetään RigidBody komponentin "AddForce(Vector3)" toimintoa, johon yhdistetään "työntö suunta", eli pelaajan antama Movement Direction 
         // Mihin suuntaan halutaan pelaajaa liikuttaa. 
         // (MoveDir * speed) lisää objektille lisää nopeutta "speed" muuttujan avulla
-        rb.AddForce(MoveDir * speed);
-    }
 
+        rb.AddForce(MoveDir * speed); 
+    
+    }
     /// <summary>
     /// Hyppy metodi, joka lisää (Vector3.up * jumpForce) verran voimaa ylöspäin (eli pallo saa y-akselille voiman: 1 * jumpForce)
     /// </summary>
     void Jump()
     {
-        Vector3 JumpDir = Vector3.up * jumpForce;
+        Vector3 MoveDir3 = new Vector3(Input.GetAxis("Horizontal"), 0, 0);
 
-        rb.AddForce(JumpDir); // Lisätään voima pallolle
+        Debug.Log(collectedCoins);
+
+
+
+          //  rb.AddForce( MoveDir3 * 50f); // Lisätään voima pallolle
+
+        
     }
 
 
@@ -94,10 +113,11 @@ public class PlayerController : MonoBehaviour
         // Jos collider (trigger), johon koskettiin sisältää komponentin "Coin", toteutetaan if-lauseen sisältö
         if (other.GetComponent<Coin>())
         {
-            Debug.Log("Interacted with coin");
+           
             Destroy(other.GetComponent<Coin>().gameObject); // Tuhoaa kolikko objektin kokonaan kentältä
 
             collectedCoins++; // kerää pelaajalle jatkuvasti pisteistä. Aina kun kerätää kolikko => lisätään 1 lisää "collectedCoins" muuttujaan
+            Debug.Log(collectedCoins);
         }
     }
 }
