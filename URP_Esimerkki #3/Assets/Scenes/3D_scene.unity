@@ -407,6 +407,7 @@ GameObject:
   - component: {fileID: 815751747}
   - component: {fileID: 815751750}
   - component: {fileID: 815751751}
+  - component: {fileID: 815751752}
   - component: {fileID: 815751746}
   m_Layer: 0
   m_Name: Player
@@ -500,9 +501,9 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 815751745}
   serializedVersion: 2
-  m_Mass: 10
-  m_Drag: 1
-  m_AngularDrag: 1
+  m_Mass: 1
+  m_Drag: 20
+  m_AngularDrag: 0
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -520,10 +521,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 453ff0455a9e3314fafd2a29501c3bf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 150
-  jumpForce: 2000
+  speed: 10
   collectedCoins: 0
   rb: {fileID: 815751750}
+--- !u!114 &815751752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 815751745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 664dfc25e9ab30d45802e5d96823f9c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &816031548
 PrefabInstance:
   m_ObjectHideFlags: 0

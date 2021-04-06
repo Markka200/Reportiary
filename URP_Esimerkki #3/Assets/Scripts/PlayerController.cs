@@ -11,12 +11,13 @@ public class PlayerController : MonoBehaviour
     // Public => N‰kyy inspectorissa
     public float speed = 10f;
 
-    public float speedw = 500f;
+    public float speedw = 25000;
     // Hypyn voimakkuus
-    public float jumpForce = 50f;
+    public float dash = 25000;
 
     // Ker‰tyt kolikot
     public int collectedCoins = 0;
+
 
     // Rigidbody komponentint referenssi, joka haetaan Start -metodissa
     // Private => Ei n‰y
@@ -34,19 +35,29 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space)) // Kun painetaan kerran Spacebar -n‰pp‰int‰, toteutetaan Jump -metodi
+        
+        if (dash <= 50000) 
         {
-            Jump();  
-            float horizontal = Input.GetAxis("Horizontal");
-        float vertical = Input.GetAxis("Vertical");
-             
-      
-        
-            Vector3 MoveDir2 = new Vector3(horizontal * 50 , 0, vertical * 50);
-            rb.AddForce(MoveDir2 * speedw);
-            Debug.Log(Input.GetKeyDown(KeyCode.Space));
-        
+            dash++;
         }
+            if (Input.GetKeyDown(KeyCode.Space)) // Kun painetaan kerran Spacebar -n‰pp‰int‰, toteutetaan Jump -metodi
+         {       Jump();
+            Debug.Log(dash); Debug.Log(speedw);
+            if (dash >= 0 )
+            {
+               
+                float horizontal = Input.GetAxis("Horizontal");
+                float vertical = Input.GetAxis("Vertical");
+
+
+                dash = dash - 5000;
+
+                Vector3 MoveDir2 = new Vector3(horizontal * dash, 0, vertical * dash);
+                rb.AddForce(MoveDir2);
+                
+
+            }
+         }
     }
 
     /// <summary>
@@ -118,6 +129,8 @@ public class PlayerController : MonoBehaviour
 
             collectedCoins++; // ker‰‰ pelaajalle jatkuvasti pisteist‰. Aina kun ker‰t‰‰ kolikko => lis‰t‰‰n 1 lis‰‰ "collectedCoins" muuttujaan
             Debug.Log(collectedCoins);
+            Debug.Log(speedw);
+
         }
     }
 }
