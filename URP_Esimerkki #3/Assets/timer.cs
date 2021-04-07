@@ -16,7 +16,6 @@ public class timer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-         speedw = PlayerController.dash;
-        Debug.Log(speedw);
+       
     }
 }
