@@ -96,7 +96,7 @@ using System.Collections;
         /// </summary>
         private void FixedUpdate()
         {
-            transform.rotation = Quaternion.identity;
+         
             Move();
 
 
@@ -111,7 +111,7 @@ using System.Collections;
                 if (osuma.distance <= 0.60)
                 {
                     grounded = true;
-                    rb.useGravity = false;
+                    rb.useGravity = true;
                     rb.drag = drag;
                     Debug.Log("geavity = " + rb.useGravity);
 
@@ -182,68 +182,93 @@ using System.Collections;
         void Jump()
         {
 
-            Debug.Log("Jumpheight == ");
-
-            Vector3 MoveDir = new Vector3(0, Jumpheight, 0);
-
-            rb.AddForce(MoveDir);
+     //   rb.velocity = transform.up * Jumpheight;
 
 
-        }
+    }
         /// <summary>             
         /// Move metodi, joka hallinnoi pelaajan liikkumisen logiikkaa
         /// </summary>
-        void Move()
-        {
-            if (grounded == true)
-            {
-                // Tapa yksi toteuttaa pelaajan liikkuminen
-                // Input.GetAxis hakee siis Input Asetuksista "Horizontal" ja "Vertical" arvon.
-                // Tässä palautetaan molemmat arvot erikseen omiin "float" muuttujiin
-                float horizontal = Input.GetAxis("Horizontal");
-                float vertical = Input.GetAxis("Vertical");
-
-                // Luodaan Movement Direction muuttuja, johon yhdistetään yllä olevat "horizontal" ja "vertical" muuttujat.
-                // HUOM: horizontal on yhdistetty "A / D" näppäimiin ja Vertical on yhdistetty "W / S".
-                // Tässä tilanteessa Vector3 muuttujan "y" arvo on asetettu 0, sillä se vaikuttaa objektin "ylös alas" liikkeeseen
-                Vector3 MoveDir = new Vector3(horizontal, 0, vertical);
-
-                //// Tapa kaksi toteuttaa pelaajan liikkuminen
-                //// Asetetaan suoraan Vector3 Horizontal ja Vertical arvot, ilman että niitä asetetaan ensin erillisiin muuttujiin
-                //Vector3 MoveDir = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
-
-                // Käytetään RigidBody komponentin "AddForce(Vector3)" toimintoa, johon yhdistetään "työntö suunta", eli pelaajan antama Movement Direction 
-                // Mihin suuntaan halutaan pelaajaa liikuttaa. 
-                // (MoveDir * speed) lisää objektille lisää nopeutta "speed" muuttujan avulla
-
-                rb.AddForce(MoveDir * speed);
-
-            }
-            /// <summary>
-            /// Hyppy metodi, joka lisää (Vector3.up * jumpForce) verran voimaa ylöspäin (eli pallo saa y-akselille voiman: 1 * jumpForce)
-            /// </summary>
-            /// <summary>
-            ///  Kun pelaaja menee triggerin sisälle, toteutetaan automaattisesti tämä toiminto
-            /// </summary>
-            /// <param name="other"></param>
-
-
-
-
-
-        }
-        void OnTriggerEnter(Collider other)
-        {
-            // Jos collider (trigger), johon koskettiin sisältää komponentin "Coin", toteutetaan if-lauseen sisältö
-            if (other.GetComponent<Coin>())
-            {
-
-                Destroy(other.GetComponent<Coin>().gameObject); // Tuhoaa kolikko objektin kokonaan kentältä
-
-                collectedCoins++; // kerää pelaajalle jatkuvasti pisteistä. Aina kun kerätää kolikko => lisätään 1 lisää "collectedCoins" muuttujaan
-                                  //  Debug.Log(collectedCoins);
-
-            }
-        }
+/*
+  void Move()
+{
+if (grounded == true)
+{
+    if (Input.GetKey(KeyCode.W))
+    {
+        //Move the Rigidbody forwards constantly at speed you define (the blue arrow axis in Scene view)
+        rb.velocity = transform.forward * speed;
     }
-   
+
+    if (Input.GetKey(KeyCode.S))
+    {
+        //Move the Rigidbody backwards constantly at the speed you define (the blue arrow axis in Scene view)
+        rb.velocity = -transform.forward * speed;
+    }
+
+
+
+}   
+} 
+*/
+void Move()
+{
+        
+            if (Input.GetKey(KeyCode.W))
+            {
+                //Move the Rigidbody forwards constantly at speed you define (the blue arrow axis in Scene view)
+                rb.velocity = transform.forward * speed;
+            }
+
+            if (Input.GetKey(KeyCode.S))
+            {
+                //Move the Rigidbody backwards constantly at the speed you define (the blue arrow axis in Scene view)
+                rb.velocity = -transform.forward * speed;
+            }
+            if (Input.GetKey(KeyCode.A))
+            {
+                //Move the Rigidbody forwards constantly at speed you define (the blue arrow axis in Scene view)
+                rb.velocity = -transform.right * speed;
+            }
+
+            if (Input.GetKey(KeyCode.D))
+            {
+                //Move the Rigidbody backwards constantly at the speed you define (the blue arrow axis in Scene view)
+                rb.velocity = transform.right * speed;
+            }
+        if (grounded == true)
+        {
+            if (Input.GetKey(KeyCode.Space))
+            {
+                rb.velocity = transform.up * Jumpheight;
+
+            }
+        }
+    /// <summary>
+    /// Hyppy metodi, joka lisää (Vector3.up * jumpForce) verran voimaa ylöspäin (eli pallo saa y-akselille voiman: 1 * jumpForce)
+    /// </summary>
+    /// <summary>
+    ///  Kun pelaaja menee triggerin sisälle, toteutetaan automaattisesti tämä toiminto
+    /// </summary>
+    /// <param name="other"></param>
+
+
+
+
+
+}
+void OnTriggerEnter(Collider other)
+{
+    // Jos collider (trigger), johon koskettiin sisältää komponentin "Coin", toteutetaan if-lauseen sisältö
+    if (other.GetComponent<Coin>())
+    {
+
+        Destroy(other.GetComponent<Coin>().gameObject); // Tuhoaa kolikko objektin kokonaan kentältä
+
+        collectedCoins++; // kerää pelaajalle jatkuvasti pisteistä. Aina kun kerätää kolikko => lisätään 1 lisää "collectedCoins" muuttujaan
+                          //  Debug.Log(collectedCoins);
+
+    }
+}
+}
+
