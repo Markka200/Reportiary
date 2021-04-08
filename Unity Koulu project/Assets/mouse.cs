@@ -11,6 +11,7 @@ public class mouse : MonoBehaviour
 
 
     public float mousesens = 555f;
+    public float mousesensup = 555f;
 
     public bool rotate = true;
 
@@ -32,14 +33,13 @@ public class mouse : MonoBehaviour
                
             
                 float vertical = Input.GetAxis("Mouse X") * Time.deltaTime * mousesens;
+
+            player.Rotate(Vector3.up * vertical);   
             if (yyy == true)
             {   
-                float horizontal = Input.GetAxis("Mouse Y") * Time.deltaTime * mousesens;
-                xxx -= horizontal;
-                xxx = Mathf.Clamp(xxx, -90f, 90f);
-                transform.localEulerAngles = new Vector3(xxx, 0f, 0f);
+                float horizontal = Input.GetAxis("Mouse Y") * Time.deltaTime * mousesensup;
+                player.Rotate(Vector3.left * vertical);
             }
-            player.Rotate(Vector3.up * vertical);
         }
     }
 

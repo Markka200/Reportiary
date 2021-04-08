@@ -18,6 +18,7 @@ using System.Collections;
         // Hypyn voimakkuus
         public float dash = 25000;
 
+    public float dashconsume = 50;
         // Kerätyt kolikot
         public int collectedCoins = 0;
 
@@ -29,9 +30,9 @@ using System.Collections;
 
         public Rigidbody rb;
 
+        Vector3 jump = new Vector3(0, 0, 0);
 
-
-        bool gravitySwitch;
+    bool gravitySwitch;
         // Rigidbody komponentint referenssi, joka haetaan Start -metodissa
         // Private => Ei näy
 
@@ -49,9 +50,11 @@ using System.Collections;
 
         private void Update()
         {
+        Move();
 
 
-            if (dash <= dashcap)
+
+        if (dash <= dashcap)
             {
                 dash++;
             }
@@ -82,11 +85,7 @@ using System.Collections;
 
 
 
-            if (Input.GetKeyDown(KeyCode.Space) && grounded) // Kun painetaan kerran Spacebar -näppäintä, toteutetaan Jump -metodi
-            {
-                Jump();
-
-            }
+   
 
 
         }
@@ -97,7 +96,7 @@ using System.Collections;
         private void FixedUpdate()
         {
          
-            Move();
+           
 
 
 
@@ -154,11 +153,10 @@ using System.Collections;
                     float vertical = Input.GetAxis("Vertical");
 
 
+                transform.Translate(new Vector3(horizontal * weakdash, weakdash + weakdash, vertical * weakdash));
 
 
-                    Vector3 MoveDir2 = new Vector3(horizontal * weakdash, weakdash + weakdash, vertical * weakdash);
-                    rb.AddForce(MoveDir2);
-                    dash = dash - 5000;
+                    dash = dash - dashconsume;
                 }
                 else
                 {
@@ -167,7 +165,7 @@ using System.Collections;
                     float vertical = Input.GetAxis("Vertical");
 
 
-                    dash = dash - 5000;
+                    dash = dash - dashconsume;
 
                     Vector3 MoveDir2 = new Vector3(horizontal * dash, 0, vertical * dash);
                     rb.AddForce(MoveDir2);
@@ -179,84 +177,58 @@ using System.Collections;
 
         }
 
-        void Jump()
-        {
-
-     //   rb.velocity = transform.up * Jumpheight;
-
-
-    }
-        /// <summary>             
-        /// Move metodi, joka hallinnoi pelaajan liikkumisen logiikkaa
-        /// </summary>
-/*
-  void Move()
-{
-if (grounded == true)
-{
-    if (Input.GetKey(KeyCode.W))
-    {
-        //Move the Rigidbody forwards constantly at speed you define (the blue arrow axis in Scene view)
-        rb.velocity = transform.forward * speed;
-    }
-
-    if (Input.GetKey(KeyCode.S))
-    {
-        //Move the Rigidbody backwards constantly at the speed you define (the blue arrow axis in Scene view)
-        rb.velocity = -transform.forward * speed;
-    }
-
-
-
-}   
-} 
-*/
+      
 void Move()
 {
-        
-            if (Input.GetKey(KeyCode.W))
-            {
-                //Move the Rigidbody forwards constantly at speed you define (the blue arrow axis in Scene view)
-                rb.velocity = transform.forward * speed;
-            }
-
-            if (Input.GetKey(KeyCode.S))
-            {
-                //Move the Rigidbody backwards constantly at the speed you define (the blue arrow axis in Scene view)
-                rb.velocity = -transform.forward * speed;
-            }
-            if (Input.GetKey(KeyCode.A))
-            {
-                //Move the Rigidbody forwards constantly at speed you define (the blue arrow axis in Scene view)
-                rb.velocity = -transform.right * speed;
-            }
-
-            if (Input.GetKey(KeyCode.D))
-            {
-                //Move the Rigidbody backwards constantly at the speed you define (the blue arrow axis in Scene view)
-                rb.velocity = transform.right * speed;
-            }
-        if (grounded == true)
+       
+        if (Input.GetKey(KeyCode.Space) )
         {
-            if (Input.GetKey(KeyCode.Space))
-            {
-                rb.velocity = transform.up * Jumpheight;
+            Vector3 horizity2 = (transform.up * Jumpheight) * Time.fixedDeltaTime;
+            jump = new Vector3(0, 5, 0);
 
-            }
+            print("spacebar is held");
+
         }
-    /// <summary>
-    /// Hyppy metodi, joka lisää (Vector3.up * jumpForce) verran voimaa ylöspäin (eli pallo saa y-akselille voiman: 1 * jumpForce)
-    /// </summary>
-    /// <summary>
-    ///  Kun pelaaja menee triggerin sisälle, toteutetaan automaattisesti tämä toiminto
-    /// </summary>
-    /// <param name="other"></param>
+        else
+        {
+
+          jump = new Vector3(0, 0, 0);
+           
+
+        }
+
+
+
+
+        var vertical = Input.GetAxis("Vertical");
+        var horizontal = Input.GetAxis("Horizontal");
 
 
 
 
 
-}
+
+
+        Vector3 velocity = (transform.forward * vertical) * speed * Time.fixedDeltaTime;
+            Vector3 horizity = (transform.right * horizontal) * speed * Time.fixedDeltaTime;
+
+            rb.velocity = horizity + velocity + jump;
+      
+
+
+        /// <summary>
+        /// Hyppy metodi, joka lisää (Vector3.up * jumpForce) verran voimaa ylöspäin (eli pallo saa y-akselille voiman: 1 * jumpForce)
+        /// </summary>
+        /// <summary>
+        ///  Kun pelaaja menee triggerin sisälle, toteutetaan automaattisesti tämä toiminto
+        /// </summary>
+        /// <param name="other"></param>
+
+
+
+
+
+    }
 void OnTriggerEnter(Collider other)
 {
     // Jos collider (trigger), johon koskettiin sisältää komponentin "Coin", toteutetaan if-lauseen sisältö
