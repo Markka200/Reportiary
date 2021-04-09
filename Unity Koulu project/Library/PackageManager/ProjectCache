@@ -1,38 +1,20 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-<<<<<<< Updated upstream
-    m_FilePath: C:/homework folder/school/unity saves/unity repository for group/Reportiary/Unity
-      Koulu project/Packages/manifest.json
-=======
     m_FilePath: C:/SCHOOL/gitti/Reportiary/Unity Koulu project/Packages/manifest.json
->>>>>>> Stashed changes
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-<<<<<<< Updated upstream
-      ticks: 637534632792318309
+      ticks: 637535586987666373
     m_Hash: 827982566
   m_LockFileStatus:
-    m_FilePath: C:/homework folder/school/unity saves/unity repository for group/Reportiary/Unity
-      Koulu project/Packages/packages-lock.json
-=======
-      ticks: 637534087441651820
-    m_Hash: 2114834985
-  m_LockFileStatus:
     m_FilePath: C:/SCHOOL/gitti/Reportiary/Unity Koulu project/Packages/packages-lock.json
->>>>>>> Stashed changes
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-<<<<<<< Updated upstream
-      ticks: 637534632792408323
+      ticks: 637535586987666373
     m_Hash: 3204023326
-=======
-      ticks: 637534087441661737
-    m_Hash: 3276110412
->>>>>>> Stashed changes
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -43,12 +25,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 4.0.1
       source: 1
-<<<<<<< Updated upstream
-      resolvedPath: C:\homework folder\school\unity saves\unity repository for group\Reportiary\Unity
-        Koulu project\Library\PackageCache\com.unity.2d.pixel-perfect@4.0.1
-=======
       resolvedPath: C:\SCHOOL\gitti\Reportiary\Unity Koulu project\Library\PackageCache\com.unity.2d.pixel-perfect@4.0.1
->>>>>>> Stashed changes
       assetPath: Packages/com.unity.2d.pixel-perfect
       name: com.unity.2d.pixel-perfect
       displayName: 2D Pixel Perfect
@@ -122,12 +99,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 5.1.1
       source: 1
-<<<<<<< Updated upstream
-      resolvedPath: C:\homework folder\school\unity saves\unity repository for group\Reportiary\Unity
-        Koulu project\Library\PackageCache\com.unity.2d.spriteshape@5.1.1
-=======
       resolvedPath: C:\SCHOOL\gitti\Reportiary\Unity Koulu project\Library\PackageCache\com.unity.2d.spriteshape@5.1.1
->>>>>>> Stashed changes
       assetPath: Packages/com.unity.2d.spriteshape
       name: com.unity.2d.spriteshape
       displayName: 2D SpriteShape
@@ -307,12 +279,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.3.9
       source: 1
-<<<<<<< Updated upstream
-      resolvedPath: C:\homework folder\school\unity saves\unity repository for group\Reportiary\Unity
-        Koulu project\Library\PackageCache\com.unity.collab-proxy@1.3.9
-=======
       resolvedPath: C:\SCHOOL\gitti\Reportiary\Unity Koulu project\Library\PackageCache\com.unity.collab-proxy@1.3.9
->>>>>>> Stashed changes
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Unity Collaborate
@@ -407,12 +374,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-<<<<<<< Updated upstream
-      resolvedPath: C:\homework folder\school\unity saves\unity repository for group\Reportiary\Unity
-        Koulu project\Library\PackageCache\com.unity.ide.rider@2.0.7
-=======
       resolvedPath: C:\SCHOOL\gitti\Reportiary\Unity Koulu project\Library\PackageCache\com.unity.ide.rider@2.0.7
->>>>>>> Stashed changes
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -515,12 +477,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-<<<<<<< Updated upstream
-      resolvedPath: C:\homework folder\school\unity saves\unity repository for group\Reportiary\Unity
-        Koulu project\Library\PackageCache\com.unity.ide.visualstudio@2.0.7
-=======
       resolvedPath: C:\SCHOOL\gitti\Reportiary\Unity Koulu project\Library\PackageCache\com.unity.ide.visualstudio@2.0.7
->>>>>>> Stashed changes
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -601,12 +558,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.3
       source: 1
-<<<<<<< Updated upstream
-      resolvedPath: C:\homework folder\school\unity saves\unity repository for group\Reportiary\Unity
-        Koulu project\Library\PackageCache\com.unity.ide.vscode@1.2.3
-=======
       resolvedPath: C:\SCHOOL\gitti\Reportiary\Unity Koulu project\Library\PackageCache\com.unity.ide.vscode@1.2.3
->>>>>>> Stashed changes
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -675,8 +627,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.2
       source: 1
-      resolvedPath: C:\homework folder\school\unity saves\unity repository for group\Reportiary\Unity
-        Koulu project\Library\PackageCache\com.unity.inputsystem@1.0.2
+      resolvedPath: C:\SCHOOL\gitti\Reportiary\Unity Koulu project\Library\PackageCache\com.unity.inputsystem@1.0.2
       assetPath: Packages/com.unity.inputsystem
       name: com.unity.inputsystem
       displayName: Input System
@@ -784,12 +735,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 4.5.0
       source: 1
-<<<<<<< Updated upstream
-      resolvedPath: C:\homework folder\school\unity saves\unity repository for group\Reportiary\Unity
-        Koulu project\Library\PackageCache\com.unity.probuilder@4.5.0
-=======
       resolvedPath: C:\SCHOOL\gitti\Reportiary\Unity Koulu project\Library\PackageCache\com.unity.probuilder@4.5.0
->>>>>>> Stashed changes
       assetPath: Packages/com.unity.probuilder
       name: com.unity.probuilder
       displayName: ProBuilder
@@ -925,12 +871,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 10.4.0
       source: 1
-<<<<<<< Updated upstream
-      resolvedPath: C:\homework folder\school\unity saves\unity repository for group\Reportiary\Unity
-        Koulu project\Library\PackageCache\com.unity.render-pipelines.universal@10.4.0
-=======
       resolvedPath: C:\SCHOOL\gitti\Reportiary\Unity Koulu project\Library\PackageCache\com.unity.render-pipelines.universal@10.4.0
->>>>>>> Stashed changes
       assetPath: Packages/com.unity.render-pipelines.universal
       name: com.unity.render-pipelines.universal
       displayName: Universal RP
@@ -1039,12 +980,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.24
       source: 1
-<<<<<<< Updated upstream
-      resolvedPath: C:\homework folder\school\unity saves\unity repository for group\Reportiary\Unity
-        Koulu project\Library\PackageCache\com.unity.test-framework@1.1.24
-=======
       resolvedPath: C:\SCHOOL\gitti\Reportiary\Unity Koulu project\Library\PackageCache\com.unity.test-framework@1.1.24
->>>>>>> Stashed changes
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -1132,12 +1068,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.1
       source: 1
-<<<<<<< Updated upstream
-      resolvedPath: C:\homework folder\school\unity saves\unity repository for group\Reportiary\Unity
-        Koulu project\Library\PackageCache\com.unity.textmeshpro@3.0.1
-=======
       resolvedPath: C:\SCHOOL\gitti\Reportiary\Unity Koulu project\Library\PackageCache\com.unity.textmeshpro@3.0.1
->>>>>>> Stashed changes
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -1288,12 +1219,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.4.6
       source: 1
-<<<<<<< Updated upstream
-      resolvedPath: C:\homework folder\school\unity saves\unity repository for group\Reportiary\Unity
-        Koulu project\Library\PackageCache\com.unity.timeline@1.4.6
-=======
       resolvedPath: C:\SCHOOL\gitti\Reportiary\Unity Koulu project\Library\PackageCache\com.unity.timeline@1.4.6
->>>>>>> Stashed changes
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -3238,12 +3164,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.6
       source: 1
-<<<<<<< Updated upstream
-      resolvedPath: C:\homework folder\school\unity saves\unity repository for group\Reportiary\Unity
-        Koulu project\Library\PackageCache\com.unity.ext.nunit@1.0.6
-=======
       resolvedPath: C:\SCHOOL\gitti\Reportiary\Unity Koulu project\Library\PackageCache\com.unity.ext.nunit@1.0.6
->>>>>>> Stashed changes
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -3304,12 +3225,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.1.0
       source: 1
-<<<<<<< Updated upstream
-      resolvedPath: C:\homework folder\school\unity saves\unity repository for group\Reportiary\Unity
-        Koulu project\Library\PackageCache\com.unity.mathematics@1.1.0
-=======
       resolvedPath: C:\SCHOOL\gitti\Reportiary\Unity Koulu project\Library\PackageCache\com.unity.mathematics@1.1.0
->>>>>>> Stashed changes
       assetPath: Packages/com.unity.mathematics
       name: com.unity.mathematics
       displayName: Mathematics
@@ -3384,12 +3300,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 10.4.0
       source: 1
-<<<<<<< Updated upstream
-      resolvedPath: C:\homework folder\school\unity saves\unity repository for group\Reportiary\Unity
-        Koulu project\Library\PackageCache\com.unity.render-pipelines.core@10.4.0
-=======
       resolvedPath: C:\SCHOOL\gitti\Reportiary\Unity Koulu project\Library\PackageCache\com.unity.render-pipelines.core@10.4.0
->>>>>>> Stashed changes
       assetPath: Packages/com.unity.render-pipelines.core
       name: com.unity.render-pipelines.core
       displayName: Core RP Library
@@ -3536,12 +3447,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 10.4.0
       source: 1
-<<<<<<< Updated upstream
-      resolvedPath: C:\homework folder\school\unity saves\unity repository for group\Reportiary\Unity
-        Koulu project\Library\PackageCache\com.unity.shadergraph@10.4.0
-=======
       resolvedPath: C:\SCHOOL\gitti\Reportiary\Unity Koulu project\Library\PackageCache\com.unity.shadergraph@10.4.0
->>>>>>> Stashed changes
       assetPath: Packages/com.unity.shadergraph
       name: com.unity.shadergraph
       displayName: Shader Graph
@@ -3691,12 +3597,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.3
       source: 1
-<<<<<<< Updated upstream
-      resolvedPath: C:\homework folder\school\unity saves\unity repository for group\Reportiary\Unity
-        Koulu project\Library\PackageCache\com.unity.settings-manager@1.0.3
-=======
       resolvedPath: C:\SCHOOL\gitti\Reportiary\Unity Koulu project\Library\PackageCache\com.unity.settings-manager@1.0.3
->>>>>>> Stashed changes
       assetPath: Packages/com.unity.settings-manager
       name: com.unity.settings-manager
       displayName: Settings Manager
@@ -3754,12 +3655,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 4.0.3
       source: 1
-<<<<<<< Updated upstream
-      resolvedPath: C:\homework folder\school\unity saves\unity repository for group\Reportiary\Unity
-        Koulu project\Library\PackageCache\com.unity.2d.common@4.0.3
-=======
       resolvedPath: C:\SCHOOL\gitti\Reportiary\Unity Koulu project\Library\PackageCache\com.unity.2d.common@4.0.3
->>>>>>> Stashed changes
       assetPath: Packages/com.unity.2d.common
       name: com.unity.2d.common
       displayName: 2D Common
@@ -3843,12 +3739,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 4.0.1
       source: 1
-<<<<<<< Updated upstream
-      resolvedPath: C:\homework folder\school\unity saves\unity repository for group\Reportiary\Unity
-        Koulu project\Library\PackageCache\com.unity.2d.path@4.0.1
-=======
       resolvedPath: C:\SCHOOL\gitti\Reportiary\Unity Koulu project\Library\PackageCache\com.unity.2d.path@4.0.1
->>>>>>> Stashed changes
       assetPath: Packages/com.unity.2d.path
       name: com.unity.2d.path
       displayName: 2D Path
@@ -3914,12 +3805,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 4.3.1
       source: 1
-<<<<<<< Updated upstream
-      resolvedPath: C:\homework folder\school\unity saves\unity repository for group\Reportiary\Unity
-        Koulu project\Library\PackageCache\com.unity.searcher@4.3.1
-=======
       resolvedPath: C:\SCHOOL\gitti\Reportiary\Unity Koulu project\Library\PackageCache\com.unity.searcher@4.3.1
->>>>>>> Stashed changes
       assetPath: Packages/com.unity.searcher
       name: com.unity.searcher
       displayName: Searcher
@@ -4043,10 +3929,5 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-<<<<<<< Updated upstream
-m_ProjectPath: C:/homework folder/school/unity saves/unity repository for group/Reportiary/Unity
-  Koulu project/Packages
-=======
 m_ProjectPath: C:/SCHOOL/gitti/Reportiary/Unity Koulu project/Packages
->>>>>>> Stashed changes
 m_EditorVersion: 2020.3.2f1 (8fd9074bf66c)
