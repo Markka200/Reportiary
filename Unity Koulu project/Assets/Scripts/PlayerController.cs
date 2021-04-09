@@ -18,7 +18,7 @@ using System.Collections;
         // Hypyn voimakkuus
         public float dash = 25000;
 
-    public float dashconsume = 50;
+        public float dashconsume = 50;
         // Kerätyt kolikot
         public int collectedCoins = 0;
 
@@ -30,7 +30,12 @@ using System.Collections;
 
         public Rigidbody rb;
 
+        private bool telorted = true;
+
+    double jumpvar;
+
         Vector3 jump = new Vector3(0, 0, 0);
+    Vector3 dashpower = new Vector3(0, 0, 0);
 
     bool gravitySwitch;
         // Rigidbody komponentint referenssi, joka haetaan Start -metodissa
@@ -50,20 +55,48 @@ using System.Collections;
 
         private void Update()
         {
+        if (Input.GetKeyDown(KeyCode.F)) // Kun painetaan kerran Spacebar -näppäintä,  -metodi
+        {
+    
+                if (telorted == false)
+                {
+                    Debug.Log("sijainit == " + rb.transform.position);
+                    dashmethod();
+                    Vector3 teleports = new Vector3(200, 3, 200);
+
+
+                    telorted = true;
+                    rb.transform.position = rb.transform.position + teleports;
+
+                }
+                else
+                {
+                    Debug.Log("sijainit == " + rb.transform.position);
+                    dashmethod();
+                    Vector3 teleports = new Vector3(-200, 3, -200);
+
+
+                    telorted = false;
+                    rb.transform.position = rb.transform.position + teleports;
+
+
+
+
+
+
+
+
+
+
+
+                }
+            
+        }
         Move();
 
 
 
-        if (dash <= dashcap)
-            {
-                dash++;
-            }
-            if (Input.GetKeyDown(KeyCode.F)) // Kun painetaan kerran Spacebar -näppäintä, toteutetaan Jump -metodi
-            {
-                Debug.Log("dash power == " + dash);
-                dashmethod();
 
-            }
 
 
             if (Input.GetKeyDown(KeyCode.G))
@@ -95,12 +128,15 @@ using System.Collections;
         /// </summary>
         private void FixedUpdate()
         {
-         
-           
+        if ((grounded == true) && (dashcap >= dash))
+        {
+            dash = dash + 30;
+        }
 
 
 
-            LayerMask mask = LayerMask.GetMask("Wall");
+
+        LayerMask mask = LayerMask.GetMask("Wall");
 
             RaycastHit osuma;
 
@@ -112,7 +148,7 @@ using System.Collections;
                     grounded = true;
                     rb.useGravity = true;
                     rb.drag = drag;
-                    Debug.Log("geavity = " + rb.useGravity);
+                    Debug.Log("drag = " + rb.useGravity + drag);
 
 
                 }
@@ -121,7 +157,7 @@ using System.Collections;
                     rb.useGravity = true;
                     grounded = false;
                     rb.drag = airdrag;
-                    Debug.Log("geavity = " + rb.useGravity);
+                    Debug.Log("airdrag = " + rb.useGravity + airdrag);
                 }
             }
             else
@@ -143,35 +179,7 @@ using System.Collections;
 
         void dashmethod()
         {
-            if (dash >= 0)
-            {
-                if (grounded == false)
-                {
-                    float weakdash = dash / 15;
-                    Debug.Log("weak dash == ");
-                    float horizontal = Input.GetAxis("Horizontal");
-                    float vertical = Input.GetAxis("Vertical");
 
-
-                transform.Translate(new Vector3(horizontal * weakdash, weakdash + weakdash, vertical * weakdash));
-
-
-                    dash = dash - dashconsume;
-                }
-                else
-                {
-
-                    float horizontal = Input.GetAxis("Horizontal");
-                    float vertical = Input.GetAxis("Vertical");
-
-
-                    dash = dash - dashconsume;
-
-                    Vector3 MoveDir2 = new Vector3(horizontal * dash, 0, vertical * dash);
-                    rb.AddForce(MoveDir2);
-                }
-
-            }
 
 
 
@@ -179,21 +187,33 @@ using System.Collections;
 
       
 void Move()
-{
-       
-        if (Input.GetKey(KeyCode.Space) )
+    {
+
+
+        if ( (dash >= 0))
         {
-            Vector3 horizity2 = (transform.up * Jumpheight) * Time.fixedDeltaTime;
-            jump = new Vector3(0, 5, 0);
+            
+            if (Input.GetKey(KeyCode.Space))
+            {
 
-            print("spacebar is held");
+                dash--;
+                Vector3 horizity2 = (transform.up * dash);
+                jump = horizity2;
 
+                print("spacebar is held");
+                
+
+            }
+            else
+            {
+                jump = new Vector3(0, 0, 0);
+            }
         }
         else
         {
 
-          jump = new Vector3(0, 0, 0);
-           
+            jump = new Vector3(0, 0, 0);
+      
 
         }
 
@@ -204,16 +224,11 @@ void Move()
         var horizontal = Input.GetAxis("Horizontal");
 
 
-
-
-
-
-
-        Vector3 velocity = (transform.forward * vertical) * speed * Time.fixedDeltaTime;
+            Vector3 velocity = (transform.forward * vertical) * speed * Time.fixedDeltaTime;
             Vector3 horizity = (transform.right * horizontal) * speed * Time.fixedDeltaTime;
 
-            rb.velocity = horizity + velocity + jump;
-      
+        rb.velocity = horizity + velocity + jump;
+
 
 
         /// <summary>
