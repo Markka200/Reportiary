@@ -13,9 +13,9 @@ public class PlayerController : MonoBehaviour
     // Public => Näkyy inspectorissa
     public float speed = 10f;
 
-    public float dashcap = 25001;
+    public float dashcap = 251;
     // Hypyn voimakkuus
-    public float dash = 25000;
+    public int dash = 250;
 
     public float dashconsume = 50;
     // Kerätyt kolikot
@@ -33,7 +33,7 @@ public class PlayerController : MonoBehaviour
 
     public float teleportaika = 10;
 
-    private bool teleportvalmis = true;
+    public bool teleportvalmis = true;
 
     private bool teleporttimer = false;
     double jumpvar;
@@ -153,7 +153,7 @@ public class PlayerController : MonoBehaviour
     {
         if ((grounded == true) && (dashcap >= dash))
         {
-            dash = dash + 30;
+            dash = dash + 1;
         }
 
 
