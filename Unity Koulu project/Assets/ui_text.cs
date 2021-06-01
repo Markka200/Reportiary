@@ -5,11 +5,7 @@ using UnityEngine.UI;
 
 public class ui_text : MonoBehaviour
 {
-    
    
-    GameObject Player;
-
-
     // Start is called before the first frame update
     void Start()
     {
@@ -18,12 +14,18 @@ public class ui_text : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      Player = GameObject.Find("Player");
  
-        
-       
-        GameObject.Find("Dashtext").GetComponent<Text>().text = Player.GetComponent<PlayerController>().dash.ToString();
+        GameObject.Find("Dashtext").GetComponent<Text>().text = GameObject.Find("Player").GetComponent<PlayerController>().dash.ToString();
+ 
+        if (GameObject.Find("Player").GetComponent<PlayerController>().teleportaika1 != GameObject.Find("Player").GetComponent<PlayerController>().teleportaika)
+        {
+            GameObject.Find("Teleportvalmis").GetComponent<Text>().text = GameObject.Find("Player").GetComponent<PlayerController>().teleportaika1.ToString();
+        }
+       else
 
+        {
+            GameObject.Find("Teleportvalmis").GetComponent<Text>().text = ("Valmis");
+        }
     }
 }
 

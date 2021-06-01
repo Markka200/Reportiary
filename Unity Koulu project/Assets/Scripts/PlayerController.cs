@@ -36,8 +36,11 @@ public class PlayerController : MonoBehaviour
     public bool teleportvalmis = true;
 
     private bool teleporttimer = false;
+
+    public int jumpair = 3;
+
     double jumpvar;
-    float teleportaika1;
+    public float teleportaika1;
 
     Vector3 jump = new Vector3(0, 0, 0);
     Vector3 dashpower = new Vector3(0, 0, 0);
@@ -122,20 +125,22 @@ public class PlayerController : MonoBehaviour
 
 
 
-        if (Input.GetKeyDown(KeyCode.G))
+        if (Input.GetKeyDown(KeyCode.Keypad8))
         {
-            gravitySwitch = !gravitySwitch;
-            if (gravitySwitch)
-            {
-                Physics.gravity = new Vector3(0, 999.81f, 0);
-            }
-            else if (!gravitySwitch)
-            {
-                Physics.gravity = new Vector3(0, -999.81f, 0);
-            }
+            Physics.gravity = new Vector3(0, 1500f, 0);
+        } 
+        if (Input.GetKeyDown(KeyCode.Keypad2))
+        {
+                Physics.gravity = new Vector3(0, -1500f, 0);
         }
-
-
+        if (Input.GetKeyDown(KeyCode.Keypad6))
+        {
+            Physics.gravity = new Vector3(1500, 0, 0);
+        }
+        if (Input.GetKeyDown(KeyCode.Keypad4))
+        {
+            Physics.gravity = new Vector3(-1500, 0, 0);
+        }
 
 
 
@@ -240,19 +245,23 @@ public class PlayerController : MonoBehaviour
 
         }
 
+    
+            var vertical = Input.GetAxis("Vertical");
+            var horizontal = Input.GetAxis("Horizontal");
+    
+        if(grounded == false)
+        {
+            vertical = vertical / jumpair;
 
+            horizontal = horizontal / jumpair;
+        }
 
-
-        var vertical = Input.GetAxis("Vertical");
-        var horizontal = Input.GetAxis("Horizontal");
-
-
-        Vector3 velocity = (transform.forward * vertical) * speed * Time.fixedDeltaTime;
-        Vector3 horizity = (transform.right * horizontal) * speed * Time.fixedDeltaTime;
-
-        rb.velocity = horizity + velocity + jump;
-
-
+            Vector3 velocity = (transform.forward * vertical) * speed * Time.fixedDeltaTime;
+            Vector3 horizity = (transform.right * horizontal) * speed * Time.fixedDeltaTime;
+        
+            rb.velocity = horizity + velocity + jump;
+        
+        
 
         /// <summary>
         /// Hyppy metodi, joka lisää (Vector3.up * jumpForce) verran voimaa ylöspäin (eli pallo saa y-akselille voiman: 1 * jumpForce)

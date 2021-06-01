@@ -1855,11 +1855,13 @@ MonoBehaviour:
   dashconsume: 50
   collectedCoins: 0
   drag: 22
-  airdrag: 22
+  airdrag: 1
   Jumpheight: 333
   rb: {fileID: 268905136}
   teleportaika: 2
   teleportvalmis: 1
+  jumpair: 3
+  teleportaika1: 0
 --- !u!54 &268905136
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9647,10 +9649,10 @@ RectTransform:
   m_Father: {fileID: 1883555684}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0.5}
-  m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -295.73706, y: 42.264}
-  m_SizeDelta: {x: 253.541, y: 114.528}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: 0, y: 57.182983}
+  m_SizeDelta: {x: 253.541, y: 114.36597}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &1522190226
 MonoBehaviour:
@@ -12178,9 +12180,8 @@ GameObject:
   - component: {fileID: 1757238381}
   - component: {fileID: 1757238383}
   - component: {fileID: 1757238382}
-  - component: {fileID: 1757238384}
   m_Layer: 5
-  m_Name: text 1
+  m_Name: Teleportvalmis
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12200,11 +12201,11 @@ RectTransform:
   m_Father: {fileID: 1883555684}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 379.241, y: 312.036}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 30.58, y: 0}
+  m_SizeDelta: {x: 905.251, y: 147.174}
+  m_Pivot: {x: 0, y: 0}
 --- !u!114 &1757238382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12249,18 +12250,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1757238380}
   m_CullTransparentMesh: 1
---- !u!114 &1757238384
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1757238380}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b97c9f642a8fbae4f9e5952d69f3b76a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!43 &1824430296
 Mesh:
   m_ObjectHideFlags: 0
