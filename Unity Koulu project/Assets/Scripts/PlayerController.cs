@@ -218,7 +218,7 @@ public class PlayerController : MonoBehaviour
     {
 
 
-        if ((dash >= 0))
+        if ((dash >= 1))
         {
 
             if (Input.GetKey(KeyCode.Space))
