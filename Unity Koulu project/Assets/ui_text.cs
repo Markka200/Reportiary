@@ -11,6 +11,7 @@ public class ui_text : MonoBehaviour
     {
     }
 
+    
     // Update is called once per frame
     void Update()
     {
@@ -19,11 +20,14 @@ public class ui_text : MonoBehaviour
  
         if (GameObject.Find("Player").GetComponent<PlayerController>().teleportaika1 != GameObject.Find("Player").GetComponent<PlayerController>().teleportaika)
         {
+
+            // GameObject.Find("Teleportvalmis").GetComponent<Text>().text = decimal.Round(decimal.Parse(GameObject.Find("Player").GetComponent<PlayerController>().teleportaika1.ToString()), 3).ToString();
             GameObject.Find("Teleportvalmis").GetComponent<Text>().text = GameObject.Find("Player").GetComponent<PlayerController>().teleportaika1.ToString();
         }
-       else
+        else
 
         {
+
             GameObject.Find("Teleportvalmis").GetComponent<Text>().text = ("Valmis");
         }
     }
