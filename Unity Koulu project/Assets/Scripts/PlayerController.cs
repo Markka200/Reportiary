@@ -3,7 +3,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 /// <summary>
 /// Pelaaja luokka, joka hallitsee pelaajien kaikkia toimintoja
 /// </summary>
@@ -288,6 +288,17 @@ public class PlayerController : MonoBehaviour
                               //  Debug.Log(collectedCoins);
 
         }
+        else if (other.gameObject.name == "win")
+        {
+            int collected = GameObject.Find("Player").GetComponent<PlayerController>().collectedCoins;
+            if (collected != 0)
+            { 
+                GameObject.Find("Voittoteksti").GetComponent<Text>().text = ("    Voitit (="); 
+            
+            
+            }
+        }
     }
+
 }
 
