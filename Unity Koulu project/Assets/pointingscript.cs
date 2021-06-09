@@ -19,8 +19,8 @@ public class pointingscript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        transform.LookAt(GameObject.Find("Player").transform.position);
+        transform.rotation = Quaternion.LookRotation(transform.position - (GameObject.Find("Player").transform.position));
+       
 
         LayerMask mask = LayerMask.GetMask("Water");
         RaycastHit osuma;
